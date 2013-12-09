@@ -31,7 +31,7 @@ module.exports = new spaghetti.Flow({
 		},
 		
 		memberFlow: {
-			success: 'doneView'
+			authorize: 'doneView'
 		}
 	}
 })

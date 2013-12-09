@@ -17,7 +17,7 @@ module.exports = new spaghetti.Flow({
 		// we can safely do early-exits in our flows.
 		
 		reviewView: {
-			success: 'return',
+			success: 'return:authorize',
 		}
 	}
 })
