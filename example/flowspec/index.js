@@ -13,7 +13,7 @@ module.exports = new spaghetti.FlowSpec({
 	
 	// Obviously we need a starting point
 	
-	start: 'checkoutFlow',
+	entryFlow: 'checkoutFlow',
 	
 	// We also register an error state, which is a 'catch-all' error handler. Since we're promise based,
 	// we can set this and forget it, then catch anything which goes wrong and provide a pleasant user experience.
