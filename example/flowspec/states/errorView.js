@@ -6,7 +6,7 @@ module.exports = new ViewState({
 	name: 'errorView',
 	template: 'error',
 	
-	execute: function() {
+	execute: function(context) {
 		console.log('errorView.execute');
 	}
 })

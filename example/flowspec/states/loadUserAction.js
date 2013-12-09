@@ -7,7 +7,10 @@ module.exports = new spaghetti.ActionState({
 	
 	name: 'loadUserAction',
 	
-	execute: function() {
+	// Since we're in an action state, we have to provide a transition for the
+	// flow engine to continue through the flow.
+	
+	execute: function(context) {
 		console.log('loadUserAction.execute');
 		
 		return q('success').delay(500);

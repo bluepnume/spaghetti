@@ -6,7 +6,7 @@ module.exports = new ViewState({
 	name: 'reviewView',
 	template: 'review',
 	
-	execute: function() {
+	execute: function(context) {
 		console.log('reviewView.execute');
 	},
 	

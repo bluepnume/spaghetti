@@ -6,7 +6,7 @@ module.exports = new ViewState({
 	name: 'doneView',
 	template: 'done',
 	
-	execute: function() {
+	execute: function(context) {
 		console.log('doneView.execute');
 	},
 	

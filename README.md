@@ -8,4 +8,10 @@ Install
 -------
 
     npm install
-	npm install example
+    
+Example App
+-----------
+
+    cd example
+	npm install
+    node .
