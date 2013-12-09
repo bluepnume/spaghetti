@@ -1,4 +1,3 @@
-
 Spaghetti
 ---------
 
@@ -141,6 +140,7 @@ By convention, these live in `/flowspec/states/`:
         }
     })
 
+-----
 
     var spaghetti = require('spaghetti');
     
